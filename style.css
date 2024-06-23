@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+
+}
+
+/*  Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 36px 0;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    padding: 36px;
+    gap: 40px;
+}
+
+.hero-left {
+
+}
+.hero button {
+    background-color: #3882f6;
+    padding: 6px 26px;
+    color: #e5e7eb;
+    border: 0 none;
+    border-radius: 8px;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.me {
+    width: 480px;
+    height: 230px;
+    border-radius: 8px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+    margin: 0;
+}
+
+/*  Info and Cards */
+
+.info img {
+    width: 130px;
+    height: 130px;
+    border: 4px solid #3882f6;
+    border-radius: 7px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    align-self: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.card p {
+    text-align: center;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.quote .text {
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.person {
+    color: #1F2937;
+    font-size: 26px;
+    align-self: flex-end;
+}
+
+/* Call to action */
+
+.action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+    margin: 80px 100px;
+    border-radius: 6px;
+}
+
+.call {
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+
+.action p {
+    color: #e5e7eb;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+.action button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 22px;
+    border: 1px white solid;
+    border-radius: 8px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+    color: #e5e7eb;
+}
